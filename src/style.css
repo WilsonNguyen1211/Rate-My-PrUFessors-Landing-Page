@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(135deg, #fa4616, #0021a5);
+    background: linear-gradient(135deg, #fa4616, #0021a5); /* to right or 135 */
     color: white;
     text-align: center;
     margin: 0;
@@ -10,8 +10,8 @@ body {
 .logo {
     position: absolute;
     top: 20px;
-    left: 20px;
-    width: 120px;
+    left: 80px;
+    width: 240px;
     height: auto;
     z-index: 1000;
 }
