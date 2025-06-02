@@ -1,0 +1,45 @@
+body {
+    background: linear-gradient(135deg, #0021a5, #fa4616);
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 2rem;
+    min-height: 100vh;
+}
+
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 60px;
+    height: auto;
+    z-index: 1000;
+}
+
+.install-button {
+
+}
+
+.install-button:hover {
+
+}
+
+.button-logo {
+
+}
+
+.video-wrapper {
+
+}
+
+.video-wrapper iframe {
+
+}
+
+.examples {
+
+}
+
+.example img {
+
+}
