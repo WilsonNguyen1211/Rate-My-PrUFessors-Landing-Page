@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(135deg, #0021a5, #fa4616);
+    background: linear-gradient(135deg, #fa4616, #0021a5);
     color: white;
     text-align: center;
     margin: 0;
@@ -11,7 +11,7 @@ body {
     position: absolute;
     top: 20px;
     left: 20px;
-    width: 60px;
+    width: 120px;
     height: auto;
     z-index: 1000;
 }
