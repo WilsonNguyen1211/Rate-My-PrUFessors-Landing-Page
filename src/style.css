@@ -1,10 +1,14 @@
 body {
-    background: linear-gradient(135deg, #fa4616, #0021a5); /* to right or 135 */
+    background: linear-gradient(to right, #fa4616, #0021a5); /* to right or 135 */
     color: white;
     text-align: center;
     margin: 0;
     padding: 2rem;
     min-height: 100vh;
+}
+
+header {
+    padding-top: 100px;
 }
 
 .logo {
