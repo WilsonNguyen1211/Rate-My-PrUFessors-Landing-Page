@@ -16,22 +16,44 @@
             <h1>Find the right Professor for you</h1>
             <p>View professor ratings and course evaluations directly within ONE.UF</p>
         </header>
-        <section>
-            <div class="video-wrapper">
-                <iframe
-                    src="https://www.youtube.com/embed/Dk8zgM7oKh0"
-                    title="Demo of RateMyPrUFessor"
-                    frameborder="0"
-                    allowfullscreen
-                ></iframe>
-            </div>
-            <a
-                href="https://chromewebstore.google.com/detail/rate-my-prufessors/aabhhefmldjjhcnacbpgooeanamkallk" 
+
+        <section class="demo-section">
+            <div class="video-block">
+              <div class="video-placeholder">
+                <!-- thumbnail -->
+                <img
+                  src="../assets/thumbnail.jpg"
+                  alt="Demo Thumbnail"
+                  class="thumbnail"
+                />
+                <!-- play button overlay -->
+                <div class="play-overlay">
+                  <img
+                    src="../assets/play-button.svg"
+                    alt="Play Video"
+                    class="play-icon"
+                  />
+                </div>
+              </div>
+        
+              <!-- install button under the video -->
+              <a
+                href="https://chromewebstore.google.com/detail/rate-my-prufessors/aabhhefmldjjhcnacbpgooeanamkallk"
                 target="_blank"
                 rel="noopener noreferrer"
-                class="install-button">Get from the Chrome Web Store
-                <img src="../assets/chromelogo.png" alt="Chrome Logo" class="button-logo"/>
-            </a>
+                class="install-button"
+              >
+                <img
+                  src="../assets/chromelogo.png"
+                  alt="Chrome Logo"
+                  class="button-logo"
+                />
+                <span>Get from the Chrome Web Store</span>
+              </a>
+            </div>
+          </section>
+
+        <section class="examples-section">
             <div class="examples">
                 <div class="example">
                     <img src="../assets/example.png" />
@@ -42,7 +64,7 @@
                 <div class="example">
                     <img src="../assets/example 3.png"
 >                </div>
-            </div>
         </section>
+        <script src="script.js"></script>
     </body>
 </html>

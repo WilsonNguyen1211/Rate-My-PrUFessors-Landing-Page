@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
 body {
     background: linear-gradient(to right, #fa4616, #0021a5); /* to right or 135 */
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
     color: white;
     text-align: center;
     margin: 0;
@@ -21,29 +25,101 @@ header {
 }
 
 .install-button {
-
+    display: inline-flex;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 12px;
+    font-size: 1rem;
+    font-weight: 500;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: background-color 0.3s;
 }
 
 .install-button:hover {
-
+    background-color: #33393f;
 }
 
 .button-logo {
-
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
 }
 
-.video-wrapper {
-
+.demo-section {
+    display: flex;
+    justify-content: center;
+    padding: 2rem 1rem;
 }
 
-.video-wrapper iframe {
-
+.video-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
 }
 
-.examples {
 
+.video-placeholder {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    border-radius: 8px;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
-.example img {
-
+.thumbnail {
+    display: block;
+    width: 100%;
+    height: auto;
 }
+
+.play-overlay {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    transition: background-color 0.2s ease;
+    pointer-events: none;
+  }
+
+.video-placeholder:hover .play-overlay {
+    background-color: rgba(0,0,0,0.5);
+}
+
+.play-icon {
+    width: 64px;
+    height: 64px;
+}
+
+.examples-section {
+    padding: 2rem 1rem;
+    background: rgba(255,255,255,0.1); /* optional panel contrast */
+  }
+  
+  .examples-section h2 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+  }
+  
+  .examples {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  
+  .example img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
