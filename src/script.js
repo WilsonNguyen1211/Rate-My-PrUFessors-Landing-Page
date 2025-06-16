@@ -3,6 +3,31 @@ document.addEventListener('DOMContentLoaded', () => {
     const modal = document.getElementById('video-modal');
     const modalContent = modal.querySelector('.video-modal-content');
     const closeBtn = modal.querySelector('.modal-close');
+
+
+        // 1. Focus‐trap setup
+    const FOCUSABLE_SELECTORS =
+      'a[href], button:not([disabled]), textarea, input, select, [tabindex]:not([tabindex="-1"])';
+    let previousFocus, firstFocusable, lastFocusable;
+
+    function trapTabKey(e) {
+      if (e.key !== 'Tab') return;
+
+      // Shift+Tab
+      if (e.shiftKey) {
+        if (document.activeElement === firstFocusable) {
+          e.preventDefault();
+          lastFocusable.focus();
+        }
+      }
+      // Tab
+      else {
+        if (document.activeElement === lastFocusable) {
+          e.preventDefault();
+          firstFocusable.focus();
+        }
+      }
+    }
   
     // Function to open the modal and inject the iframe
     function openModal() {
