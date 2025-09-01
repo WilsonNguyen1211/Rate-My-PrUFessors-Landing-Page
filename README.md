@@ -8,7 +8,6 @@ A browser extension that seamlessly integrates professor ratings from **RateMyPr
 
 - [Introduction](#introduction)
 - [Features](#features)
-- [Installation](#installation)
 - [Usage](#usage)
 - [Configuration](#configuration)
 - [Dependencies](#dependencies)
@@ -32,14 +31,6 @@ A browser extension that seamlessly integrates professor ratings from **RateMyPr
 - ❌ **Fallback Handling**: Clear "Not Found" messages if a professor isn't listed on RMP, with direct links to search manually.
 - 📽️ **Video Demo Modal**: Interactive demo experience embedded in the extension site.
 - 🎨 **Modern UI**: Clean, responsive, and visually branded with UF's signature colors.
-
----
-
-## 🛠️ Installation
-
-1. Visit the [Chrome Web Store Extension Page](https://chromewebstore.google.com/detail/rate-my-prufessors/aabhhefmldjjhcnacbpgooeanamkallk).
-2. Click **"Add to Chrome"**.
-3. Once installed, the extension will automatically enhance your ONE.UF browsing experience.
 
 ---
 
